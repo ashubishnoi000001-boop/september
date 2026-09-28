@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="./assets/img/Group.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            list-style-type: none;
+            text-decoration: none;
+            /* font-family: "Lato", sans-serif;
+            font-family: "Poppins", sans-serif; */
+        }
+
+        .row {
+            max-width: 1400px;
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .frame1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
+        }
+
+        .frame2 {
+            width: 50%;
+        }
+
+        .frame-form {
+            max-width: 340px;
+            width: 100%;
+        }
+
+        .frame-img {
+            max-width: 499px;
+            width: 100%;
+        }
+
+        .logo {
+            max-width: 276px;
+            width: 100%;
+            min-height: 48px;
+        }
+
+        .logo-gap {
+            display: flex;
+            flex-direction: column;
+            gap: 48px;
+        }
+
+        .contant {
+            max-width: 340px;
+            width: 100%;
+        }
+
+        h1 {
+            font-family: "Poppins", sans-serif;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 135%;
+            color: rgba(3, 7, 18, 1);
+        }
+
+        .heading-para {
+            font-family: "Lato", sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            color: rgba(98, 101, 109, 1);
+        }
+
+        .heading-a {
+            color: rgba(37, 99, 235, 1);
+        }
+
+        .heading {
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            max-width: 228px;
+            margin-bottom: 32px;
+        }
+
+        .label-box {
+            display: flex;
+            max-width: 340px;
+            width: 100%;
+            gap: 10px;
+            border: 1px solid rgba(228, 234, 247, 1);
+            background-color: rgba(245, 248, 255, 1);
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+
+        .inpt {
+            background-color: rgba(245, 248, 255, 1);
+            border: none;
+            font-family: "Lato", sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 171%;
+            color: rgba(145, 151, 166, 1);
+            padding: 10px 16px 10px 0px;
+            outline: none;
+            width: 100%;
+            margin-bottom: 12px;
+        }
+
+        .input-svg {
+            padding: 13px 0 13px 16px;
+        }
+
+        .space-tick {
+            display: flex;
+            gap: 10px;
+        }
+
+        .eye-svg {
+            padding: 13px 16px 13px 0;
+        }
+
+        .chkbox {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 24px;
+        }
+
+        .para {
+            font-family: "Lato", sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            color: rgba(98, 101, 109, 1);
+        }
+
+        .sign-in-btn {
+            padding: 14px 143.5px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: rgba(255, 255, 255, 1);
+            border-radius: 50px;
+            border: none;
+            background: linear-gradient(83.67deg, #2194FF 10.02%, #2563EB 90.05%);
+        }
+
+        .hr-para {
+            font-family: "Lato", sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            padding: 0 8px;
+            color: rgba(145, 151, 166, 1);
+        }
+
+        .empty-div {
+            display: flex;
+            margin-top: 16px;
+            align-items: center;
+        }
+
+        .hr-1 {
+            flex: 1;
+            width: 100% ;
+            height: 1px;
+            background-color: rgba(201, 207, 219, 1);
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="row">
+            <div class="frame1">
+                <div class="frame-form">
+                    <div class="logo-gap">
+                        <img class="logo" src="./assets/img/Logo-2.png" alt="loggo">
+                        <div class="contant">
+                            <div class="heading">
+                                <h1>Sign in</h1>
+                                <p class="heading-para">Don’t have an account? <a class="heading-a" href="">Register
+                                        here</a></p>
+                            </div>
+                            <form action="">
+
+                                <div class="label-box">
+                                    <img class="input-svg" src="./assets/img/mail (1).svg" alt="">
+                                    <input class="inpt" type="email" placeholder="Email">
+                                </div>
+                                <div class="label-box">
+                                    <img class="input-svg" src="./assets/img/locked.svg" alt="">
+                                    <input class="inpt" type="password" placeholder="Password"> <img class="eye-svg"
+                                        src="./assets/img/eye.svg" alt="">
+                                </div>
+                                <div class="chkbox">
+                                    <div class="space-tick">
+                                        <input type="checkbox">
+                                        <p class="para">Remember me</p>
+                                    </div>
+                                    <p class="para">Forgot password?</p>
+                                </div>
+                                <button class="sign-in-btn">Sign in</button>
+
+                                <div class="empty-div">
+                                    <div class="hr-1"></div>
+                                    <p class="hr-para">or continue with</p>
+                                    <div class="hr-1"></div>
+                                </div>
+                                <div class="google-btn"> 
+
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="frame2">
+                <div class="frame-img"></div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

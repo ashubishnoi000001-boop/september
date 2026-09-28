@@ -1,0 +1,370 @@
+        @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-family: "Dela Gothic One", sans-serif;
+        }
+
+        .parent {
+            backdrop-filter: blur(6px);
+            max-width: 631px;
+            width: 100%;
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1180px;
+            width: 100%;
+            min-height: 100px;
+            margin: 0 auto;
+            padding: 25px 20px 24px 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .container {
+            max-width: 1216px;
+            width: 100%;
+            padding: 0;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .main-frame {
+            display: flex;
+            align-items: center;
+        }
+
+        .grow-flex {
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        .bg-img {
+            position: relative;
+            background-image: url("/CHIMPZ-hero-section/assets/img/jungle-background.webp");
+            width: 100%;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .heading-list {
+            color: rgba(255, 255, 255, 0.7);
+            gap: 46px;
+            font-family: "Fira Sans", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            cursor: pointer;
+            transition: all ease 300ms;
+        }
+
+        .heading-list:hover {
+            color: rgba(255, 255, 255, 1);
+        }
+
+        .heading-box {
+            max-width: 508px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            gap: 46px;
+        }
+
+        .icon-box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .icon-svg {
+            border: 1px solid rgba(255, 255, 255, 1);
+            border-radius: 50%;
+            width: fit-content;
+            height: fit-content;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all ease 300ms;
+        }
+
+        .icon-svg:hover {
+            background-color: rgba(255, 194, 10, 1);
+            border: 1px solid black;
+        }
+
+        .nav-list {
+            display: flex;
+            align-items: center;
+            gap: 60px;
+        }
+
+        .btn-nav {
+            font-family: "Dela Gothic One", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 100%;
+            color: rgba(255, 255, 255, 1);
+            background-color: rgba(255, 194, 10, 1);
+            padding: 14px 32px;
+            border-radius: 36px;
+            border: 1px solid transparent;
+            cursor: pointer;
+            transition: all ease 300ms;
+        }
+
+        .btn-nav:hover {
+            background-color: transparent;
+            border-color: rgba(255, 194, 10, 1);
+            color: rgba(255, 194, 10, 1);
+        }
+
+        .text-frame {
+            max-width: 647px;
+            width: 100%;
+            position: relative;
+            z-index: 23;
+        }
+
+        .main-text {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            max-width: 631px;
+            width: 100%;
+        }
+
+        .main-text-child {
+            max-width: 604px;
+            width: 100%;
+        }
+
+        .exo-font {
+            font-family: "Exo 2", sans-serif;
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 100%;
+            text-align: left;
+            color: rgba(255, 255, 255, 1);
+            text-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+        }
+
+        .green-name {
+            font-family: "Exo 2", sans-serif;
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 100%;
+            color: rgba(59, 148, 94, 1);
+            text-shadow: 0 0 20px rgba(59, 148, 94, 0.7);
+        }
+
+        .robo-font {
+            font-family: "Roboto", sans-serif;
+            color: rgba(255, 255, 255, 1);
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 150%;
+            text-align: left;
+            text-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+        }
+
+        .fira-font {
+            font-family: "Fira Sans", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            text-align: left;
+            color: rgba(255, 255, 255, 0.9);
+            text-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+        }
+
+        .img-frame {
+            /* max-width: 585px;
+            width: 100%; */
+            display: flex;
+            justify-content: center;
+            transform: translate(-49px, -3px);
+            position: relative;
+            z-index: 1;
+        }
+
+        .img-chimpz {
+            max-width: 531px;
+            width: 100%;
+        }
+
+        .right-list {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 32px;
+        }
+
+        .bg-linear1 {
+            position: absolute;
+            top: 0;
+            background: linear-gradient(180deg, #000000 36.19%, rgba(0, 0, 0, 0) 100%);
+            min-height: 100px;
+            width: 100%;
+        }
+
+        .bg-linear2 {
+            background: linear-gradient(360deg, #030D01 0%, rgba(3, 13, 1, 0) 100%);
+            min-height: 100px;
+            width: 100%;
+        }
+
+        .rectangle {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width:1024px) {
+            .green-name {
+                font-size: 50px;
+            }
+
+            .exo-font {
+                font-size: 50px;
+            }
+
+            .img-chimpz {
+                max-width: 531px;
+                width: 100%;
+            }
+
+            .img-frame {
+                transform: translate(-37px, 22px);
+            }
+
+        }
+
+        @media (max-width:992px) {
+            .green-name {
+                font-size: 45px;
+            }
+
+            .exo-font {
+                font-size: 45px;
+            }
+
+            label[for="menu"] .menu-line {
+                display: flex;
+                width: 16px;
+                height: 2px;
+                border-radius: 6px;
+                background-color: white;
+            }
+
+            .nav-list {
+                display: flex;
+                align-items: center;
+                gap: 25px;
+                margin: 0 auto;
+                flex-direction: column;
+            }
+
+            label[for="menu"] {
+                display: flex;
+                z-index: 99;
+                flex-direction: column;
+                gap: 2px;
+            }
+
+            .right-list {
+                background-color: black;
+                position: fixed;
+                flex-direction: column;
+                align-items: center;
+                z-index: 1;
+                justify-content: center;
+                transition: all 300ms;
+                cursor: pointer;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 100%;
+            }
+
+            input[id="menu"]:checked~.right-list {
+                left: 0;
+            }
+
+            .right-list {
+                flex-direction: column;
+                gap: 25px;
+            }
+
+            .heading-box {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+
+        @media (max-width:768px) {
+            .main-frame {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 25px;
+            }
+
+            .text-frame {
+                max-width: 563px;
+                width: 100%;
+            }
+
+            .img-chimpz {
+                max-width: 380px;
+                width: 100%;
+            }
+
+            .img-frame {
+
+                transform: unset;
+            }
+
+            .green-name {
+                font-size: 35px;
+            }
+
+            .exo-font {
+                font-size: 35px;
+                text-align: center;
+            }
+
+            .robo-font {
+                text-align: center;
+            }
+
+            .fira-font {
+                text-align: center;
+            }
+        }
+
+        @media (max-width:576px) {
+            .main-text {
+                gap: 10px;
+            }
+        }
