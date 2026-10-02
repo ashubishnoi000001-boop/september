@@ -24,7 +24,7 @@
         }
 
         .bg-img {
-            background-image: url(/get-in-touch1/assets/img/layout-img.png);
+            background-image: url(../img/layout-img.png);
             position: relative;
             max-width: 1140px;
             width: 100%;
