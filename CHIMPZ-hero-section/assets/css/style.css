@@ -57,7 +57,7 @@
 
         .bg-img {
             position: relative;
-            background-image: url("/CHIMPZ-hero-section/assets/img/jungle-background.webp");
+            background-image: url("../img/jungle-background.webp");
             width: 100%;
             background-position: center;
             background-size: cover;
